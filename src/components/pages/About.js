@@ -1,7 +1,7 @@
 import React from "react";
 import img from "../images/avatar.png"
 
-function About () {
+function About() {
     return (
         <div>
             <h1>About Me</h1>
