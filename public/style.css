@@ -10,7 +10,7 @@ nav {
   background-color: #7B9EA8;
 }
 
-a {
+.link {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
@@ -21,7 +21,7 @@ a {
   position: relative;
 }
 
-a:after {    
+.link:after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -34,11 +34,11 @@ a:after {
   width: 0;
 }
 
-a:hover {
+.link:hover {
   color: #fff;
 }
 
-a:hover:after { 
+.link:hover:after { 
   width: 100%; 
   left: 0; 
 }

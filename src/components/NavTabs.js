@@ -8,6 +8,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             <div class="col" className={currentPage === 'About' ? 'col highlight' : 'col'}>
                 <a
                     href="#About"
+                    class="link"
                     onClick={() => handlePageChange('About')}
                 >
                     <h3>
@@ -18,6 +19,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             <div class="col" className={currentPage === 'Project' ? 'col highlight' : 'col'}>
                 <a
                     href="#Project"
+                    class="link"
                     onClick={() => handlePageChange('Project')}
                 >
                     <h3>
@@ -28,6 +30,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             <div class="col" className={currentPage === 'Contact' ? 'col highlight' : 'col'}>
                 <a
                     href="#Contact"
+                    class="link"
                     onClick={() => handlePageChange('Contact')}
                 >
                     <h3>
@@ -38,6 +41,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             <div class="col" className={currentPage === 'Resume' ? 'col highlight' : 'col'}>
                 <a
                     href="#Resume"
+                    class="link"
                     onClick={() => handlePageChange('Resume')}
                 >
                     <h3>
