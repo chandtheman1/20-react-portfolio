@@ -1,3 +1,54 @@
+body {
+  background-color: #E6C79C;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+nav {
+  background-color: #7B9EA8;
+}
+
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+
+.highlight {
+  background-color: #78586F;
+}
+
+
 .flip-card {
   background-color: transparent;
   width: 400px;

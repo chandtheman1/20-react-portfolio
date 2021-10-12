@@ -4,47 +4,48 @@ function NavTabs({ currentPage, handlePageChange }) {
     return (
         
         
-        <ul>
-            <div>
-                <h1>Chandler Liang</h1>
-            </div>
-            <li>
+        <nav class="row">
+            <div class="col" className={currentPage === 'About' ? 'col highlight' : 'col'}>
                 <a
                     href="#About"
                     onClick={() => handlePageChange('About')}
-                    className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
                 >
-                About
+                    <h3>
+                        About
+                    </h3>
                 </a>
-            </li>
-            <li>
+            </div>
+            <div class="col" className={currentPage === 'Project' ? 'col highlight' : 'col'}>
                 <a
                     href="#Project"
                     onClick={() => handlePageChange('Project')}
-                    className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}
                 >
-                Project
+                    <h3>
+                        Project
+                    </h3>
                 </a>
-            </li>
-            <li>
+            </div>
+            <div class="col" className={currentPage === 'Contact' ? 'col highlight' : 'col'}>
                 <a
                     href="#Contact"
                     onClick={() => handlePageChange('Contact')}
-                    className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                 >
-                    Contact
+                    <h3>
+                        Contact
+                    </h3>
                 </a>
-            </li>
-            <li>
+            </div>
+            <div class="col" className={currentPage === 'Resume' ? 'col highlight' : 'col'}>
                 <a
                     href="#Resume"
                     onClick={() => handlePageChange('Resume')}
-                    className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                 >
-                    Resume
+                    <h3>
+                        Resume
+                    </h3>
                 </a>
-            </li>
-        </ul>
+            </div>
+        </nav>
     )
 };
 
