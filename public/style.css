@@ -1,5 +1,8 @@
 body {
-  background-color: #E6C79C;
+  background-color: #e6c79c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -7,7 +10,7 @@ h1 {
 }
 
 nav {
-  background-color: #7B9EA8;
+  background-color: #7b9ea8;
 }
 
 .link {
@@ -15,13 +18,13 @@ nav {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15em;
-  
+
   display: inline-block;
   padding: 15px 20px;
   position: relative;
 }
 
-.link:after {    
+.link:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -38,16 +41,23 @@ nav {
   color: #fff;
 }
 
-.link:hover:after { 
-  width: 100%; 
-  left: 0; 
+.link:hover:after {
+  width: 100%;
+  left: 0;
 }
-
 
 .highlight {
-  background-color: #78586F;
+  background-color: #78586f;
 }
 
+footer {
+  margin-top: auto;
+  display: inline-block;
+}
+
+.font-style {
+  color: #7b9ea8;
+}
 
 .flip-card {
   background-color: transparent;
@@ -84,8 +94,6 @@ nav {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-
-
 }
 
 /* Style the back side */
