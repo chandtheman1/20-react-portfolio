@@ -1,14 +1,40 @@
 import React from "react";
 import img from "../images/avatar.png"
 
+const styles = {
+    avatar: {
+        borderRadius: "50%",
+        display: "flex",
+        justifyContent: "center",
+        width: "auto",
+    },
+    p: {
+        fontSize: "1.5rem",
+        padding: "10px",
+        marginTop: "10px",
+        textAlign: "center"
+    }
+}
+
 function About() {
     return (
-        <div>
-            <h1>About Me</h1>
-            <img src={img} alt="avatar" />
-            <p>
-                Thank you for reading my profile. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
+        <div class="container">
+            <h1 class="d-flex justify-content-center">Chandler Liang</h1>
+            <div class="d-flex justify-content-center">
+                <img src={img} alt="avatar" style={styles.avatar} />
+            </div>
+            <div style={styles.p}>
+                <p >
+                    I am a Front End Developer that started my coding career in 2021!
+                </p>
+                <p>
+                    I was a Service Desk Analyst for many years and recently transitioned to a web developer.
+                </p>
+                <p>
+                    Currently, I'm learning full stack development through an online bootcamp. It is my hope that I can be a competent Full stack Web Developer in the future.
+                </p>
+            </div>
+
         </div>
     );
 }
