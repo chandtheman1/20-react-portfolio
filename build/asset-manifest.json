@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/20-react-portfolio/static/js/main.55ff9479.chunk.js",
+    "main.js.map": "/20-react-portfolio/static/js/main.55ff9479.chunk.js.map",
+    "runtime-main.js": "/20-react-portfolio/static/js/runtime-main.9e8521f4.js",
+    "runtime-main.js.map": "/20-react-portfolio/static/js/runtime-main.9e8521f4.js.map",
+    "static/js/2.ecadbef5.chunk.js": "/20-react-portfolio/static/js/2.ecadbef5.chunk.js",
+    "static/js/2.ecadbef5.chunk.js.map": "/20-react-portfolio/static/js/2.ecadbef5.chunk.js.map",
+    "index.html": "/20-react-portfolio/index.html",
+    "static/js/2.ecadbef5.chunk.js.LICENSE.txt": "/20-react-portfolio/static/js/2.ecadbef5.chunk.js.LICENSE.txt",
+    "static/media/artyPants.50268530.png": "/20-react-portfolio/static/media/artyPants.50268530.png",
+    "static/media/avatar.61d937d1.png": "/20-react-portfolio/static/media/avatar.61d937d1.png",
+    "static/media/budgetTracker.715c1ccf.png": "/20-react-portfolio/static/media/budgetTracker.715c1ccf.png",
+    "static/media/fitnessTracker.359edf76.png": "/20-react-portfolio/static/media/fitnessTracker.359edf76.png",
+    "static/media/giffsterGram.9674f11d.png": "/20-react-portfolio/static/media/giffsterGram.9674f11d.png",
+    "static/media/readme.612dc365.png": "/20-react-portfolio/static/media/readme.612dc365.png",
+    "static/media/techBlog.709cb5b3.png": "/20-react-portfolio/static/media/techBlog.709cb5b3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e8521f4.js",
+    "static/js/2.ecadbef5.chunk.js",
+    "static/js/main.55ff9479.chunk.js"
+  ]
+}
