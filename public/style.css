@@ -9,6 +9,10 @@ h1 {
   font-size: 4rem;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
 nav {
   background-color: #7b9ea8;
 }
@@ -62,8 +66,7 @@ footer {
 .flip-card {
   background-color: transparent;
   width: 400px;
-  height: 350px;
-  border: 1px solid #f1f1f1;
+  height: 250px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -98,7 +101,7 @@ footer {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: #78586f;
   color: white;
   transform: rotateY(180deg);
 }
